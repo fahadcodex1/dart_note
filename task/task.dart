@@ -298,13 +298,20 @@
 //     },
 //   ];
 
-//   for (var i in students) {
-//     List<int> marks = i["marks"];
+//   for (var student in students) {
+//     List<int> marks = student["marks"];
+
+//     int total = 0;
+//     for (int mark in marks) {
+//       total += mark;
+//     }
+
+//     double average = total / marks.length;
 
 //     if (average >= 50) {
-//       print("${i["name"]} → PASS");
+//       print("${student["name"]} → PASS");
 //     } else {
-//       print("${i["name"]} → FAIL");
+//       print("${student["name"]} → FAIL");
 //     }
 //   }
 // }

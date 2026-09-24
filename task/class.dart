@@ -23,5 +23,6 @@ void main() {
     course: "Flutter",
     mark: [20, 50, 40],
   );
+
   student1.printStudentDetails();
 }
