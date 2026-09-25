@@ -264,54 +264,54 @@
 
 // Task 5
 
-void main() {
-  List<Map<String, dynamic>> students = [
-    {
-      "id": 101,
-      "name": "Arun",
-      "course": "Flutter",
-      "marks": [80, 75, 90],
-    },
-    {
-      "id": 102,
-      "name": "Rahul",
-      "course": "Python",
-      "marks": [65, 70, 60],
-    },
-    {
-      "id": 103,
-      "name": "Anu",
-      "course": "Flutter",
-      "marks": [92, 88, 95],
-    },
-    {
-      "id": 104,
-      "name": "Fazil",
-      "course": "Python",
-      "marks": [55, 62, 58],
-    },
-    {
-      "id": 105,
-      "name": "Neha",
-      "course": "Flutter",
-      "marks": [72, 80, 76],
-    },
-  ];
+// void main() {
+//   List<Map<String, dynamic>> students = [
+//     {
+//       "id": 101,
+//       "name": "Arun",
+//       "course": "Flutter",
+//       "marks": [80, 75, 90],
+//     },
+//     {
+//       "id": 102,
+//       "name": "Rahul",
+//       "course": "Python",
+//       "marks": [65, 70, 60],
+//     },
+//     {
+//       "id": 103,
+//       "name": "Anu",
+//       "course": "Flutter",
+//       "marks": [92, 88, 95],
+//     },
+//     {
+//       "id": 104,
+//       "name": "Fazil",
+//       "course": "Python",
+//       "marks": [55, 62, 58],
+//     },
+//     {
+//       "id": 105,
+//       "name": "Neha",
+//       "course": "Flutter",
+//       "marks": [72, 80, 76],
+//     },
+//   ];
 
-  for (var student in students) {
-    List<int> marks = student["marks"];
+//   for (var student in students) {
+//     List<int> marks = student["marks"];
 
-    int total = 0;
-    for (int mark in marks) {
-      total += mark;
-    }
+//     int total = 0;
+//     for (int mark in marks) {
+//       total += mark;
+//     }
 
-    double average = total / marks.length;
+//     double average = total / marks.length;
 
-    if (average >= 50) {
-      print("${student["name"]} → PASS");
-    } else {
-      print("${student["name"]} → FAIL");
-    }
-  }
-}
+//     if (average >= 50) {
+//       print("${student["name"]} → PASS");
+//     } else {
+//       print("${student["name"]} → FAIL");
+//     }
+//   }
+// }
